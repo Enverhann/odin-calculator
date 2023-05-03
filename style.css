@@ -1,0 +1,36 @@
+body{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    min-height: 500px;
+    min-width: 500px;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(197, 194, 194);
+}
+
+#clear,
+#delete{
+    height: 100px;
+    width: 205px;
+    background-color: rgb(191, 224, 235);
+}
+#delete{
+    background-color: rgb(240, 183, 183);
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 48px;
+    border: 2px solid black;
+    border-radius: 20px;
+}

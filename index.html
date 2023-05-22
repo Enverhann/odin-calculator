@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-    <div class="container-erase">
-        <button id="clear" onclick="colorClicked('random')">Clear</button>
-        <button id="delete" onclick="colorClicked('random')">Delete</button>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">0</div>
+      <div class="calculator-buttons">
+        <div class="container-erase">
+          <button id="clear">Clear</button>
+          <button id="delete">Delete</button>
+        </div>
+        <div class="container-num2">
+          <button id="7">7</button>
+          <button c="8">8</button>
+          <button id="9">9</button>
+          <button id="÷">÷</button>
+        </div>
+        <div class="container-num3">
+          <button id="4">4</button>
+          <button id="5">5</button>
+          <button id="6">6</button>
+          <button id="x">x</button>
+        </div>
+        <div class="container-num4">
+          <button id="1">1</button>
+          <button id="2">2</button>
+          <button id="3">3</button>
+          <button id="-">-</button>
+        </div>
+        <div class="container-num5">
+          <button id=",">,</button>
+          <button id="0"">0</button>
+          <button id="=">=</button>
+          <button id="+">+</button>
+        </div>
+      </div>
+      <div class="copyright">Copyright © 2023 Enverhan</div>
     </div>
-    <div class="container-num2">
-        <button id="7" onclick="colorClicked('random')">7</button>
-        <button id="8" onclick="colorClicked('random')">8</button>
-        <button id="9" onclick="colorClicked('random')">9</button>
-        <button id="÷" onclick="colorClicked('random')">÷</button>
-    </div>
-    <div class="container-num3">
-        <button id="4" onclick="colorClicked('random')">4</button>
-        <button id="5" onclick="colorClicked('random')">5</button>
-        <button id="6" onclick="colorClicked('random')">6</button>
-        <button id="x" onclick="colorClicked('random')">x</button>
-    </div>
-    <div class="container-num4">
-        <button id="1" onclick="colorClicked('random')">1</button>
-        <button id="2" onclick="colorClicked('random')">2</button>
-        <button id="3" onclick="colorClicked('random')">3</button>
-        <button id="-" onclick="colorClicked('random')">-</button>
-    </div>
-    <div class="container-num5">
-        <button id="," onclick="colorClicked('random')">,</button>
-        <button id="0" onclick="colorClicked('random')">0</button>
-        <button id="=" onclick="colorClicked('random')">=</button>
-        <button id="+" onclick="colorClicked('random')">+</button>
-    </div>
-</div>
-</body>
-<script src="calculator.js"></script>
+    <script src="calculator.js"></script>
+  </body>
 </html>

@@ -1,23 +1,36 @@
 body{
     padding-top: 100px;
+    align-items: center;
     justify-content: center;
     display: flex;
     min-height: 500px;
     min-width: 500px;
 }
+.copyright{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
 .container{
     padding: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
     height: auto;
     border: 5px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: center;
     background-color: rgb(197, 194, 194);
+    flex-basis: 20%;
 }
-
+.calculator-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-erase{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
 #clear,
 #delete{
     height: 100px;
@@ -33,4 +46,14 @@ button{
     font-size: 48px;
     border: 2px solid black;
     border-radius: 20px;
+}
+.screen{  
+width: 370px;  
+background-color: rgb(197, 194, 194);
+border: 5px solid black;  
+border-radius: 20px;  
+padding: 20px;
+margin: auto;  
+font-size: 55px;
+text-align: end;
 }
